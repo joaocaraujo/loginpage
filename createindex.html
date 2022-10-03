@@ -4,30 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Create User Page</title>
     <link rel="stylesheet" href="font/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/createstyles.css">
     </head>
 <body>
     <div id="login-container">
-        <h1>Login</h1>
+        <h1>Create new user</h1>
         <form action="">
             <label for="email">E-mail</label>
             <input type="email" name="email" id="email" placeholder="Put your email" autocomplete="off">
+            <label for="email">Repeat your E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Put your email again" autocomplete="off">
+            <label for="text">Name</label>
+            <input type="text" name="text" id="text" placeholder="Full name" autocomplete="off">
+            <label for="text">Username</label>
+            <input type="text" name="text" id="text" placeholder="Custom username" autocomplete="off">
+            <label for="date">Birth date</label>
+            <input type="date" name="date" id="date" autocomplete="off">
             <label for="password">Password</label>
             <input type="password" name="password" id="password" placeholder="Put your password">
-            <a href="/resetindex.html" id="forgot-pass">Click here to change your password</a>
+            <label for="password">Repeat your password</label>
+            <input type="password" name="password" id="password" placeholder="Put your password again">
             <input type="submit" value="Login">
         </form>
         <div id="social-container">
             <p>Access with your social networks</p>
             <i class="fa fa-facebook-f"></i>
             <i class="fa fa-linkedin"></i>
-        </div>
-        <div id="register-container">
-            <p>
-            <a href="#">Register your account</a>
-            </p>
         </div>
     </div>
     
